@@ -1,0 +1,50 @@
+import java.awt.Color;
+import java.util.Random;
+
+
+public class Ball {
+	
+	int x;
+	int y;
+	int w;
+	int h;
+	
+	int gameW;
+	int gameH;
+	
+	
+	
+	
+	public Ball(int gameW, int gameH, int x, int y, int w, int h) {
+		this.x = x;
+		this.y = y;
+		this.w = w;
+		this.h = h;
+		
+		this.gameH = gameH;
+		this.gameW = gameW;
+	}
+
+	public void update(){
+		x++;
+		y++;
+	}
+
+	public int getX() {
+		return x;
+	}
+
+	public int getY() {
+		return y;
+	}
+
+	public int getW() {
+		return w;
+	}
+
+	public int getH() {
+		return h;
+	}
+
+
+}
