@@ -34,7 +34,7 @@ public class Ball extends GameEntity {
 
 	
 	public void reverse(){
-		this.dy = -speed;
+		dy = -speed;
 	}
 
 
