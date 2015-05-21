@@ -56,7 +56,6 @@ public class Game extends Canvas implements KeyListener {
 			bat.update();
 			
 			detectCollition();
-			detectMiss();
 			
 			// Draw the buffer
 			drawBuffer();
@@ -80,7 +79,7 @@ public class Game extends Canvas implements KeyListener {
 	}
 	
 	public void detectMiss(){
-		if(ball.getY() == 580){
+		if(ball.getY() > 500){
 			JOptionPane.showMessageDialog(null, "Game Over!!!!!!");
 		}
 	}

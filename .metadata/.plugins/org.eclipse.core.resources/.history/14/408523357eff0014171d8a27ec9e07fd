@@ -80,7 +80,7 @@ public class Game extends Canvas implements KeyListener {
 	}
 	
 	public void detectMiss(){
-		if(ball.getY() == 580){
+		if(ball.getY() == 590){
 			JOptionPane.showMessageDialog(null, "Game Over!!!!!!");
 		}
 	}

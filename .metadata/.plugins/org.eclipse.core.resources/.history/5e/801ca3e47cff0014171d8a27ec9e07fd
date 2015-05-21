@@ -69,10 +69,6 @@ public class Ball {
 	public int getH() {
 		return h;
 	}
-	
-	public void reverse(){
-		dy = -speed;
-	}
 
 
 }
